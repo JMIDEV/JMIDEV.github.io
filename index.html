@@ -15,19 +15,21 @@
 
 body{
 
-background-color: rgb(22, 22, 22);
+background: url(FONDOCOLORES.jpg);
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
 margin-bottom: 0px;
 margin-left: 0px;
 margin-right: 0px;
 margin-top: 0px;
 font-family: 'Poppins', sans-serif;
 overflow-x: hidden;
-background-image: url('data:image/svg+xml,%3Csvg width="52" height="26" viewBox="0 0 52 26" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.1"%3E%3Cpath d="M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z" /%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
 }
 
 #Header{
 
-box-shadow: 13px 13px 0px 0px rgba(0, 0, 255, 0.164);
 position: fixed;
 margin-top: 0px;
 margin-left: 0px;
@@ -35,28 +37,25 @@ left: 0px;
 top: 0px;
 right: 0px;
 height: 70px;
-background-color: rgb(37, 37, 37);
+background-color: rgba(51, 51, 51, 0.582)
 
 }
 
 #JMIDEVHEADERLOGO{
 
-width: 30px;
-height: 30px;
+width: 40px;
+height: 40px;
 position: absolute;
-left: 57px;
-top: 23.5px;
+left: 50px;
+top: 19px;
 border-radius: 15px;
 transition: 0.3s;
-box-shadow: 5px 5px 0px 0px rgba(0, 0, 255, 0.164);
 
 }
 
 #JMIDEVHEADERLOGO:hover{
 
-border-radius: 7px;
 cursor: hand;
-box-shadow: -5px -5px 0px 0px rgba(0, 0, 255, 0.164);
 
 }
 
@@ -104,11 +103,10 @@ top: 18px;
 
 width: 120px;
 height: 34px;
-background-color: rgb(46, 46, 46);
-border: 2px solid rgb(46, 46, 46);
+background-color: rgb(65, 65, 65);
+border: 2px solid transparent;
 color: white;
 border-radius: 0px;
-box-shadow: 8px 8px 0px 0px rgba(0, 0, 255, 0.144);
 margin-left: 10px;
 margin-right: 10px;
 transition: 0.3s;
@@ -122,8 +120,8 @@ font-family: 'Poppins', sans-serif;
 .HeaderButtons:hover{
 
 font-size: 13px;
-box-shadow: -8px -8px 0px 0px rgba(0, 0, 255, 0.219);
 cursor: hand;
+background-color: rgb(42, 42, 42);
 
 }
 
@@ -137,26 +135,6 @@ color: white;
 
 }
 
-.pagestylediv{
-
-box-shadow: 8px 8px 0px 0px rgba(0, 0, 255, 0.144);
-background-color: rgb(37, 37, 37);
-border: 2px solid rgb(37, 37, 37);
-padding: 30px;
-
-}
-
-.sectionita{
-
-padding-top: 50px;
-padding-bottom: 50px;
-width: 100%;
-height: 500px;
-box-shadow: 8px 8px 0px 0px rgba(0, 0, 255, 0.144);
-margin-bottom: 30px;
-
-}
-
 ::-webkit-scrollbar{
 
 width: 11px;
@@ -166,7 +144,7 @@ width: 11px;
 ::-webkit-scrollbar-track{
 
 border: 2px transparent rgb(10, 10, 10);
-background-color: rgba(14, 14, 14, 0.986);
+background-color: rgb(14, 14, 14);
 
 
 }
@@ -197,16 +175,15 @@ background-color: rgb(34, 34, 34);
     left: 0px;
     right: 0px;
     color: rgb(151, 151, 151);
-    background-color: rgb(32, 32, 32);
+    background-color: rgb(54, 54, 54);
     justify-content: center;
     font-size: 13px;
-    background-image: url('data:image/svg+xml,%3Csvg width="100" height="20" viewBox="0 0 100 20" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M21.184 20c.357-.13.72-.264 1.088-.402l1.768-.661C33.64 15.347 39.647 14 50 14c10.271 0 15.362 1.222 24.629 4.928.955.383 1.869.74 2.75 1.072h6.225c-2.51-.73-5.139-1.691-8.233-2.928C65.888 13.278 60.562 12 50 12c-10.626 0-16.855 1.397-26.66 5.063l-1.767.662c-2.475.923-4.66 1.674-6.724 2.275h6.335zm0-20C13.258 2.892 8.077 4 0 4V2c5.744 0 9.951-.574 14.85-2h6.334zM77.38 0C85.239 2.966 90.502 4 100 4V2c-6.842 0-11.386-.542-16.396-2h-6.225zM0 14c8.44 0 13.718-1.21 22.272-4.402l1.768-.661C33.64 5.347 39.647 4 50 4c10.271 0 15.362 1.222 24.629 4.928C84.112 12.722 89.438 14 100 14v-2c-10.271 0-15.362-1.222-24.629-4.928C65.888 3.278 60.562 2 50 2 39.374 2 33.145 3.397 23.34 7.063l-1.767.662C13.223 10.84 8.163 12 0 12v2z" fill="%239C92AC" fill-opacity="0.1" fill-rule="evenodd"/%3E%3C/svg%3E');
-
 }
 
 a{
 
     color: rgb(255, 106, 106);
+
 
 }
 
@@ -216,20 +193,27 @@ a{
 
     <body>
         <main class="main">
-            <h1>Hola, bienvenido a JMIDEV!!!</h1>
-            <div style="background: url(FONDO1ASECCION.png); border-radius: 15px; background-repeat: no-repeat; background-size: 100%;" class="sectionita">
-                <div style="position: absolute; width: 40%; height: 400px; right: 50px;" class="pagestylediv">
-                    <h1>GAME DEV, Desarrollo web, funcionamiento de tecnicas de la programación, y más!! Todo en un solo canal.</h1>
+            <div>
+                <h1>Hola Mundo!!</h1>
+                <div align="right" style="margin-bottom: 100px;">
+                    <div style="text-align: right; justify-content: right; width: 900px; padding-left: 100px; padding-right: 50px; padding-bottom: 50px; border: 2px solid white;">
+                        <h1 style="text-align: right; font-size: 50px;">Soy JMIDEV, un joven que aun no ha pasado la ESO que se dedica a crear sus videojuegos, webs, y demás en su tiempo libre.</h1>
+                    </div>
                 </div>
-            </div>
-            <div style="background: url(FONDO2ASECCION.png); border-radius: 15px; background-repeat: no-repeat; background-size: 100%;" class="sectionita">
-                <div style="position: absolute; width: 40%; height: 200px; left: 50px;" class="pagestylediv">
-                    <h1>También enseño mis animaciones 2D, música de mis juegos, y demás!!</h1>
+                <div align="center" style="margin-bottom: 100px;">
+                    <div style="text-align: center; justify-content: center; width: 900px; padding-left: 100px; padding-right: 100px; padding-bottom: 50px; border: 2px solid white;">
+                        <h1 style="text-align: center; font-size: 50px;">Publico mis juegos en Itch.io, Github, y en un futuro, Google Play.</h1>
+                    </div>
                 </div>
-            </div>
-            <div style="background: url(FONDO3ASECCION.png); border-radius: 15px; background-repeat: no-repeat; background-size: 100%;" class="sectionita">
-                <div style="position: absolute; width: 40%; height: 200px; right: 50px;" class="pagestylediv">
-                    <h1>Desarrollo de videojuegos, publicados en ITCH.IO</h1>
+                <div align="left" style="margin-bottom: 100px;">
+                    <div style="text-align: left; justify-content: left; width: 900px; padding-left: 100px; padding-right: 100px; padding-bottom: 50px; border: 2px solid white;">
+                        <h1 style="text-align: left; font-size: 50px;">Tengo un canal de youtube donde documento el proceso de mis juegos, y un twitch donde me podéis ver trabajar de vez en cuando</h1>
+                    </div>
+                </div>
+                <div align="center" style="margin-bottom: 100px;">
+                    <div style="text-align: center; justify-content: center; width: 900px; padding-left: 100px; padding-right: 100px; padding-bottom: 50px; border: 2px solid white;">
+                        <h1 style="text-align: center; font-size: 50px;">Sigueme en las redes sociales que se muestran ahí abajo!!</h1>
+                    </div>
                 </div>
             </div>
         </main>
@@ -237,7 +221,13 @@ a{
             <h4 align="center">El desarrollo de videojuegos, la preparación de mis videos, y mi vida personal, son muy complicadas
             <br>de aguantar entre ellas, así que por favor, suscribete a mi canal de YouTube, a mi Itch.io, pinterest,
             <br>y unete a mi server de discord!!</h4>
-            <div align="center"><a href="https://jmidev.itch.io">Itch.io</a> - <a href="https://www.youtube.com/channel/UCyfD82E_VPQrOrOhp8fLFGA">YouTube</a> - <a href="https://discord.gg/aVTD6ck">Discord</a> - <a href="https://pinterest.es/JMIDEV">Pinterest</a></div>
+            <div align="center">
+                <a href="https://jmidev.itch.io">Itch.io</a> - 
+                <a href="https://www.youtube.com/channel/UCyfD82E_VPQrOrOhp8fLFGA">YouTube</a> - 
+                <a href="https://discord.gg/aVTD6ck">Discord</a> - 
+                <a href="https://pinterest.es/JMIDEV">Pinterest</a> -
+                <a href="https://www.twitch.tv/gyhu_games">Twitch</a>
+        </div>
             </div>
         <div id="Header">
             <div id="HeaderTitle">
