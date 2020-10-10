@@ -2,7 +2,9 @@
 
     <head>
 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-site-verification" content="Xy5uj2iXX3okIg4YJNnGyrSRPLNXODLddALWqO-TY2E" />
+        <meta name="theme-color" content="#332b31" />
         <meta charset="UTF-8">
         <meta name="language" content="Spanish">
         <meta http-equiv="content-language" content="es">
@@ -130,9 +132,10 @@ background-color: rgb(42, 42, 42);
 
 margin-top: 110px;
 margin-bottom: 50px;
-margin-left: 80px;
-margin-right: 80px;
+margin-left: 40px;
+margin-right: 40px;
 color: white;
+text-align: center;
 
 }
 
@@ -145,23 +148,21 @@ width: 11px;
 ::-webkit-scrollbar-track{
 
 border: 2px transparent rgb(10, 10, 10);
-background-color: rgb(14, 14, 14);
+background-color: rgb(65, 56, 61);
 
 
 }
 
 ::-webkit-scrollbar-thumb{
 
-border: 2px transparent rgb(66, 66, 66);
-background-color: rgb(37, 37, 37);
+background-color: rgb(102, 91, 98);
 transition: 0.3s;
 
 }
 
 ::-webkit-scrollbar-thumb:hover{
 
-border: 2px transparent rgb(66, 66, 66);
-background-color: rgb(34, 34, 34);
+background-color: rgb(85, 76, 82);
 
 }
 
@@ -187,34 +188,194 @@ justify-content: center;
 font-size: 13px;
 }
 
+.hamburguermenuresponsive{
+    position: absolute;
+    right: 20px;
+    top: 14px;
+    width: 48px;
+    height: 48px;
+    background: rgba(0, 0, 0, 0.13);
+    border: 2px solid transparent;
+    border-radius: 15px;
+    display: none;
+    transition: 0.3s;
+    outline: none;
+}
+
+.hamburguermenuresponsive:hover{
+    background: rgba(0, 0, 0, 0.39);
+    cursor: hand;
+}
+
+.hamburguermenuresponsive:focus{
+    background: rgba(0, 0, 0, 0.602);
+    cursor: hand;
+}
+
+.hamburguermenuresponsiveicon{
+    width: 30px;
+    height: 30px;
+}
+
+.hambmenselector{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    width: 60%;
+    background-color: rgb(93, 79, 86);
+    box-shadow: 0 0 100px 0px rgba(0, 0, 0, 0.315);
+}
+
+#hambmencontainer{
+    position: fixed;
+    margin-top: 0px;
+    margin-left: 0px;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    transition: 0.3s;
+}
+
+.hambmenselectormenu{
+    position: absolute;
+    color: white;
+    left: 80px;
+    font-size: 40px;
+
+}
+
+.hambmenselectorclose{
+    position: absolute;
+    width: 43px;
+    height: 43px;
+    top: 35px;
+    left: 20px;
+    background-color: rgba(0, 0, 0, 0.123);
+    border: 2px solid transparent;
+    border-radius: 22px;
+    color: white;
+    outline: none;
+    transition: 0.3s;
+}
+
+.hambmenselectorclose:hover{
+    cursor: hand;
+    background-color: rgba(0, 0, 0, 0.253);
+}
+
+.hambmenselectorcloseicon{
+    width: 25px;
+    height: 25px;
+}
+
+.hambmenbutton{
+    width: 90%;
+    height: 50px;
+    margin-left: 5%;
+    background-color: rgb(126, 111, 117);
+    border: 2px solid transparent;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    color: white;
+    text-align: left;
+    padding-left: 20px;
+    outline: none;
+    transition: 0.3s;
+}
+
+.hambmenbutton:hover{
+    background-color: rgb(109, 95, 101);
+    cursor: hand;
+}
+
+.hambmenoptions{
+    margin-top: 110px;
+}
+
+.iniciobox{
+    width: 100vmin;
+    height: 320px;
+    display: table-cell;
+    vertical-align: middle;
+    padding-right: 20%;
+    padding-left: 20%;
+    border: none;
+    border-radius: 20px;
+}
+
+.iniciobox p{
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #JMIDEVHEADERLOGO{
+
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        left: 19px;
+        top: 11px;
+        border-radius: 15px;
+        transition: 0.3s;
+
+    }
+
+    .HeaderLetras{
+
+        display: none;
+
+    }
+
+    #HeaderMenu{
+        display: none;
+    }
+
+    .main{
+
+        margin-top: 110px;
+        margin-bottom: 50px;
+        margin-left: 20px;
+        margin-right: 20px;
+        color: white;
+
+    }
+
+    #Header{
+        
+        background-color: rgba(51, 51, 51, 0.842)
+
+    }
+
+    .hamburguermenuresponsive{
+        display: inline;
+    }
+
+    #footer{
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-bottom: 30px;
+    }
+
+}
+
+
         </style>
 
     </head>
 
     <body>
         <main class="main">
-            <div>
-                <h1>Hola Mundo!!</h1>
-                <div align="right" style="margin-bottom: 100px;">
-                    <div style="text-align: right; justify-content: right; width: 900px; padding-left: 100px; padding-right: 50px; padding-bottom: 50px; border: 2px solid white;">
-                        <h1 style="text-align: right; font-size: 50px;">Soy JMIDEV, un joven que aun no ha pasado la ESO que se dedica a crear sus videojuegos, webs, y demás en su tiempo libre.</h1>
-                    </div>
-                </div>
-                <div align="center" style="margin-bottom: 100px;">
-                    <div style="text-align: center; justify-content: center; width: 900px; padding-left: 100px; padding-right: 100px; padding-bottom: 50px; border: 2px solid white;">
-                        <h1 style="text-align: center; font-size: 50px;">Publico mis juegos en Itch.io, Github, y en un futuro, Google Play.</h1>
-                    </div>
-                </div>
-                <div align="left" style="margin-bottom: 100px;">
-                    <div style="text-align: left; justify-content: left; width: 900px; padding-left: 100px; padding-right: 100px; padding-bottom: 50px; border: 2px solid white;">
-                        <h1 style="text-align: left; font-size: 50px;">Tengo un canal de youtube donde documento el proceso de mis juegos, y un twitch donde me podéis ver trabajar de vez en cuando</h1>
-                    </div>
-                </div>
-                <div align="center" style="margin-bottom: 100px;">
-                    <div style="text-align: center; justify-content: center; width: 900px; padding-left: 100px; padding-right: 100px; padding-bottom: 50px; border: 2px solid white;">
-                        <h1 style="text-align: center; font-size: 50px;">Sigueme en las redes sociales que se muestran ahí abajo!!</h1>
-                    </div>
-                </div>
+            <h1 style="font-size: 70px;">¡HOLA MUNDO!</h1>
+            <div align="center">
+                <div style="background: linear-gradient(325deg, rgba(255,218,0,1) 0%, rgba(255,141,0,1) 100%);" class="iniciobox"><p>Soy JMIDEV, un joven que aun no ha pasado la ESO que se dedica a crear sus videojuegos, webs, y demás en su tiempo libre.</p></div><br>
+                <div style="background: linear-gradient(135deg, rgba(0,254,255,1) 0%, rgba(0,95,255,1) 100%);" class="iniciobox"><p>Publico mis juegos en Itch.io, Github, y en un futuro, Google Play.</p></div><br>
+                <div style="background: linear-gradient(135deg, rgba(249,255,0,1) 0%, rgba(0,255,85,1) 100%);" class="iniciobox"><p>Tengo un canal de youtube donde documento el proceso de mis juegos, y un twitch donde me podéis ver trabajar de vez en cuando</p></div><br>
+                <div style="background: linear-gradient(135deg, rgb(153, 0, 255) 0%, rgb(255, 0, 170) 100%);" class="iniciobox"><p>¡¡Sigueme en las redes sociales que se muestran ahí abajo!!</p></div><br>
             </div>
         </main>
         <!-- <p id="footer">
@@ -238,18 +399,33 @@ font-size: 13px;
                 <a href="https://www.youtube.com/channel/UCyfD82E_VPQrOrOhp8fLFGA">YouTube</a> - 
                 <a href="https://discord.gg/aVTD6ck">Discord</a> - 
                 <a href="https://pinterest.es/JMIDEV">Pinterest</a> -
-                <a href="https://www.twitch.tv/gyhu_games">Twitch</a>
+                <a href="https://www.twitch.tv/devjmi">Twitch</a>
+            </div>
         </div>
         <div id="Header">
             <div id="HeaderTitle">
                 <img id="JMIDEVHEADERLOGO" src="JMIDEVLOGO.png">
                 <h1 id="HeaderJMIletra" class="HeaderLetras">JMI</h1><h1 id="HeaderDEVletra" class="HeaderLetras">DEV</h1>
             </div>
+            <button onclick="activatehm();" class="hamburguermenuresponsive"><img class="hamburguermenuresponsiveicon" src="menu-white-18dp.svg"></button>
             <div id="HeaderMenu">
                 <button onclick="goInicio();" id="Inicio" class="HeaderButtons">Inicio</button>
                 <button onclick="goProyectos();" id="Mis Proyectos" class="HeaderButtons">Mis Proyectos</button>
             </div>
         </div>
+        <div id="hambmencontainer">
+            <div class="hambmenselector">
+                <button onclick="hidehm();" class="hambmenselectorclose"><img class="hambmenselectorcloseicon" src="clear-white-18dp.svg"></button>
+                <h1 class="hambmenselectormenu">Menú</h1>
+                <div class="hambmenoptions">
+                    <button onclick="goInicio();" class="hambmenbutton">Inicio</button>
+                    <br>
+                    <button onclick="goProyectos();" class="hambmenbutton">Mis Proyectos</button>
+                </div>
+            </div>
+        </div>
     </body>
     <script src="topbar.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="hamburguermenu.js"></script>
 </html>
