@@ -1,23 +1,23 @@
 function goInicio(){
 
-    window.location.href = "index.html";
+    window.location.href = "index";
 
 }
 
 function goProyectos(){
 
-    window.location.href = "mis-proyectos.html";
+    window.location.href = "mis-proyectos";
 
 }
 
 function goRedes(){
 
-    window.location.href = "redes-sociales.html";
+    window.location.href = "redes-sociales";
 
 }
 
 function goBlog(){
 
-    window.location.href = "blog.html";
+    window.location.href = "blog";
 
 }
