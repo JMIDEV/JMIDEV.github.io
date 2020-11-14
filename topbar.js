@@ -1,6 +1,6 @@
 function goInicio(){
 
-    window.location.href = "index";
+    window.location.href = "/";
 
 }
 
