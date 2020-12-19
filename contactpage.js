@@ -26,7 +26,7 @@ if(!formended){
   $("#tickpage").css("display", "none");
 
 }
-
+  //asasas
 else{
 
   $("#contactform").css("display", "none");

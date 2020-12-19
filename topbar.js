@@ -17,3 +17,5 @@ function goContacto(){
     window.location.href = "contact";
 
 }
+
+//asasasasasa
