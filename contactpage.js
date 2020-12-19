@@ -40,6 +40,7 @@ function uploadmessage(){
     var emailbox = document.getElementById("emailbox").value;
     var asuntobox = document.getElementById("asuntobox").value;
     var messagebox = document.getElementById("messagebox").value;
+    var userlocaltime = new Date();
 
     if(emailbox == ""){
 
@@ -61,12 +62,13 @@ function uploadmessage(){
 
     else{
 
-      db.collection("mensajescontactopagina").doc("MSG - " + document.getElementById("asuntobox").value).set({
+      db.collection("mensajescontactopagina").doc("MSG·" + Math.floor(Math.random() * 300) + " - " + document.getElementById("asuntobox").value).set({
       
         AA_nombre: namebox,
         BB_email: emailbox,
         CC_asunto: asuntobox,
-        DD_mensaje: messagebox});
+        DD_mensaje: messagebox,
+        EE_msgdate: userlocaltime});
   
       formended = true;
 
