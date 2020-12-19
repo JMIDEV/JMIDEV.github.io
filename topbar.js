@@ -12,14 +12,8 @@ function goProyectos(){
 
 }
 
-function goRedes(){
+function goContacto(){
 
-    window.location.href = "redes-sociales";
-
-}
-
-function goBlog(){
-
-    window.location.href = "blog";
+    window.location.href = "contact";
 
 }

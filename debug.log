@@ -19,3 +19,4 @@
 [1003/122523.653:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acceso denegado. (0x5)
 [1003/122523.654:ERROR:registration_protocol_win.cc(131)] TransactNamedPipe: Ha terminado la canalización. (0x6D)
 [1003/122523.655:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acceso denegado. (0x5)
+[1212/091222.635:ERROR:settings.cc(325)] Settings version is not 1

@@ -114,7 +114,7 @@ cursor: hand;
     margin-left: 40px;
     margin-right: 40px;
     color: rgb(48, 48, 48);
-    text-align: left;
+    text-align: center;
 
 }
 
@@ -133,9 +133,10 @@ cursor: hand;
 
 .projectbutton h2{
 
-position: relative;
-top: 228px;
-color: rgb(44, 44, 44);
+    position:  relative;
+    top: 228px;
+    font-size: 25px;
+    color: rgb(44, 44, 44);
 
 }
 
@@ -146,8 +147,13 @@ color: rgb(44, 44, 44);
     </head>
 
     <body>
+        <div class="decoraciones">
+
+            <img class="decoracionimg" src="DECORACIÓN 3.png" style=" top: -1000px; opacity: 0.3; ">
+
+        </div>
         <main class="main">
-            <h1 style="margin-left: 15px; margin-right: 15px;">Hechos en CONSTRUCT</h1>
+            <h1 style="margin-left: 15px; margin-right: 15px; font-size: 10vmin;">Hechos en CONSTRUCT</h1>
             <a href="https://mega.nz/file/GBJlWaKT#mQlyT3GqSsl8G0K1UdzZriIstHu5rcjzHxksOwFAGSA"><button id="rollball" class="projectbutton"><div><h2>ROLLING BALL</h2></div></button></a>
             <a href="https://mega.nz/file/yJITTajZ#122Q5hnbYlKQRlydu9T6L-XhiNYnq3EPDcmERIkj_Xk"><button id="wlalpha" class="projectbutton"><div><h2>WORLD LIFE ALPHA</h2></div></button></a>
             <a href="https://jmidev.itch.io/world-life-demo"><button id="wldemo" class="projectbutton"><div><h2>WORLD LIFE DEMO</h2></div></button></a>
@@ -175,6 +181,7 @@ color: rgb(44, 44, 44);
             <div id="HeaderMenu">
                 <button onclick="goInicio();" id="Inicio" class="HeaderButtons">Inicio</button>
                 <button onclick="goProyectos();" id="Mis Proyectos" class="HeaderButtons">Mis Proyectos</button>
+                <button onclick="goContacto();" id="Mis Proyectos" class="HeaderButtons">Contacto</button>
             </div>
         </div>
         <div id="hambmencontainer">
@@ -185,6 +192,8 @@ color: rgb(44, 44, 44);
                     <button onclick="goInicio();" class="hambmenbutton">Inicio</button>
                     <br>
                     <button onclick="goProyectos();" class="hambmenbutton">Mis Proyectos</button>
+                    <br>
+                    <button onclick="goContacto();" class="hambmenbutton">Contacto</button>
                 </div>
             </div>
         </div>
@@ -193,4 +202,13 @@ color: rgb(44, 44, 44);
     <script src="topbar.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="hamburguermenu.js"></script>
+
+    <!-- FIREBASE SCRIPTS :)-->
+
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase-analytics.js"></script>
+    <script src="firebase.js"></script>
+    
+    <!-- END OF FIREBASE SCRIPTS :( -->
+
 </html>
