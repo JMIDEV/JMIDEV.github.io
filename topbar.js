@@ -14,7 +14,7 @@ function goProyectos(){
 
 function goContacto(){
 
-    window.location.href = "contact";
+    window.location.href = "contactar";
 
 }
 
