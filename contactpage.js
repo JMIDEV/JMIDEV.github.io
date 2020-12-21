@@ -62,7 +62,7 @@ function uploadmessage(){
 
     else{
 
-      db.collection("mensajescontactopagina").doc("MSG·" + Math.floor(Math.random() * 300) + " - " + document.getElementById("asuntobox").value).set({
+      db.collection("mensajescontactopagina").doc("MSG·" + " - " + asuntobox + " - " + Math.floor(Math.random() * 100000)).set({
       
         AA_nombre: namebox,
         BB_email: emailbox,
