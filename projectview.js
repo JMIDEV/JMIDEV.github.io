@@ -161,6 +161,12 @@ const urlParams = new URLSearchParams(queryString);
 
 mainroot = urlParams.get('proj');
 
+if(mainroot == null){
+
+    window.location.href = "/";
+
+}
+
 //read data from data obj
 
 nombre = projectsdata[mainroot].projname;
