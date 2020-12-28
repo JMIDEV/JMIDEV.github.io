@@ -6,6 +6,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="297mm"
@@ -17,6 +18,18 @@
    sodipodi:docname="TICK.svg">
   <defs
      id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient840">
+      <stop
+         style="stop-color:#464150;stop-opacity:1;"
+         offset="0"
+         id="stop836" />
+      <stop
+         style="stop-color:#415041;stop-opacity:1"
+         offset="1"
+         id="stop838" />
+    </linearGradient>
     <linearGradient
        id="linearGradient2787"
        osb:paint="solid">
@@ -33,6 +46,15 @@
          offset="0"
          id="stop837" />
     </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient840"
+       id="linearGradient842"
+       x1="80.805649"
+       y1="105.03693"
+       x2="205.17274"
+       y2="215.15196"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -61,7 +83,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -70,13 +92,13 @@
      inkscape:groupmode="layer"
      id="layer1">
     <circle
-       style="fill-opacity:1;stroke-width:17.821;stroke-linecap:round;stroke-linejoin:round;stroke:#ffffff;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill-rule:evenodd;fill:#5cfa85"
+       style="fill-opacity:1;stroke-width:17.821;stroke-linecap:round;stroke-linejoin:round;stroke:#ffffff;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill-rule:evenodd;fill:url(#linearGradient842)"
        id="path833"
        cx="149.1364"
        cy="153.67998"
        r="121.96132" />
     <path
-       style="fill:none;stroke:#ffffff;stroke-width:25.235;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:none;stroke:#ffffff;stroke-width:25.235;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="M 93.786117,155.83519 137.35809,198.07244 210.13424,121.02"
        id="path835"
        sodipodi:nodetypes="ccc" />
