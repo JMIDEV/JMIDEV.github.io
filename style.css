@@ -335,6 +335,109 @@ body{
 
     }
 
+    .customalertboxcontainerfix{
+
+        position: fixed;
+        margin-top: 0px;
+        margin-left: 0px;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        height: 100%;
+        text-align: center;
+        pointer-events: none;
+
+    }
+
+    .customalertboxcontainer{
+
+        width: 50vmax;
+        height: 230px;
+        background: white;
+        display: inline-block;
+        margin-top: -300px;
+        border: none;
+        border-radius: 20px;
+        box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.082);
+        transition: 1s;
+        text-align: left;
+
+    }
+
+    .advicetypecontainer{
+
+        display: table-cell;
+        width: 50vmax;
+        height: 40px;
+        vertical-align: middle;
+        padding-left: 10px;
+        background: rgb(82, 151, 255);
+        border-radius: 20px 20px 0px 0px;
+        transition: 1s;
+        color: white;
+
+    }
+
+    #problemicon{
+
+        width: 30px;
+        vertical-align: middle;
+
+    }
+
+    #problemtext{
+
+        vertical-align: middle;
+        margin-left: 10px;
+        font-size: 19px;
+
+    }
+
+    #problemdesc{
+
+        color: initial;
+        font-size: 22px;
+
+    }
+
+    .problemdescdiv{
+
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 20px;
+        height: 90px;
+
+    }
+
+    .advicelogocontainer{
+
+        display: table-cell;
+        width: 50vmax;
+        height: 65px;
+        vertical-align: middle;
+        padding-left: 10px;
+        border-radius: 0px 0px 20px 20px;
+        transition: 1s;
+
+    }
+
+    #jmidevlogoincab{
+
+        width: 40px;
+        margin-left: 10px;
+        border-radius: 20px;
+        vertical-align: middle;
+
+    }
+
+    #jmidevtextincab{
+
+        vertical-align: middle;
+        margin-left: 10px;
+        font-size: 19px;
+
+    }
+
     /*asasasasasasassasasas*/
 
     @media only screen and (max-width: 768px) {
