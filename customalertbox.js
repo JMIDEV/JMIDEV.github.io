@@ -10,7 +10,7 @@ function checkifshowingmessagething(){
 
     else{
 
-        $(".customalertboxcontainer").css("margin-top", "-300px");
+        $(".customalertboxcontainer").css("margin-top", "-600px");
 
     }
 
