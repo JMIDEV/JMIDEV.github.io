@@ -439,6 +439,22 @@ body{
 
     }
 
+    #footersocialicon{
+
+        width: 50px;
+        margin-left: 2.5px;
+        margin-right: 2.5px;
+        transition: 0.3s;
+        vertical-align: top;
+
+    }
+
+    #footersocialicon:hover{
+
+        width: 60px;
+
+    }
+
     /*asasasasasasassasasas*/
 
     @media only screen and (max-width: 768px) {
