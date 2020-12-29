@@ -395,7 +395,7 @@ body{
 
     #problemdesc{
 
-        color: initial;
+        color: rgb(71, 71, 71);
         font-size: 22px;
 
     }
@@ -435,6 +435,7 @@ body{
         vertical-align: middle;
         margin-left: 10px;
         font-size: 19px;
+        color: rgb(71, 71, 71);
 
     }
 
@@ -508,6 +509,24 @@ body{
             width: 70%;
             height: 360px;
         
+        }
+
+        .customalertboxcontainer{
+
+            width: 85vw;
+
+        }
+
+        .advicelogocontainer{
+
+            width: 85vw;
+    
+        }
+
+        .advicetypecontainer{
+
+            width: 85vw;
+    
         }
     
     }
