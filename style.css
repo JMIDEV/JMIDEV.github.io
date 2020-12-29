@@ -361,6 +361,7 @@ body{
         box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.082);
         transition: 1s;
         text-align: left;
+        pointer-events: all;
 
     }
 
