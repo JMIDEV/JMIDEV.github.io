@@ -41,6 +41,9 @@ function uploadmessage(){
     var asuntobox = document.getElementById("asuntobox").value;
     var messagebox = document.getElementById("messagebox").value;
     var userlocaltime = new Date();
+    var userregion = new Intl.Locale("en-Latn-US");
+
+    //console.log(userregion.region); // Prints "US"
 
     if(emailbox == ""){
 
