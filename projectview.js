@@ -130,6 +130,32 @@ var projectsdata = {
 
         }
 
+    },
+
+    "basketva": {
+
+        "projname": "BasketVá",
+        "shortdescription": "Evita pelotas y sacos de boxeo con el poder de tu dedo, haciendo saltar a una pelota que depende de tu habilidad.",
+        "description": "Evita pelotas y sacos de boxeo con el poder de tu dedo, haciendo saltar a una pelota que depende de tu habilidad y reflejos para seguir con vida y no salir volando hacia no se donde.",
+        "authors": "JMIDEV",
+        "rating": 4,
+        "photos": {
+
+            "cover": "FotosDeProyectos/Casuales/BasketVa/COVER.jpg",
+            "photo1": "FotosDeProyectos/Casuales/BasketVa/CAPT1.png",
+            "photo2": "FotosDeProyectos/Casuales/BasketVa/CAPT2.png",
+            "photo3": "FotosDeProyectos/Casuales/BasketVa/CAPT3.png"
+
+        },
+        "platforms": {
+
+            "itchio": "https://jmidev.itch.io/basketva",
+            //"mega": "https://mega.nz/file/GBJlWaKT#mQlyT3GqSsl8G0K1UdzZriIstHu5rcjzHxksOwFAGSA",
+            //"web": "https://jmidev.github.io/Rodant-Ball/",
+            //"construct": "https://www.construct.net/en/free-online-games/world-life-demo-12747/play"
+
+        }
+
     }
 
 };
