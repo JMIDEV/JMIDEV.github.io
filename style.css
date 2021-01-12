@@ -296,7 +296,7 @@ body{
         outline: none;
         width: 70%;
         height: 720px;
-        box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.521);
+        box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.178);
         border: none;
     
     }
@@ -517,11 +517,9 @@ body{
             padding-bottom: 30px;
         }
 
-        .videosample{
+        .videosampl{
 
             margin-top: 150px;
-            border: 10px solid red;
-            border-radius: 50px;
             outline: none;
             width: 70%;
             height: 360px;
