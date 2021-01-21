@@ -156,6 +156,32 @@ var projectsdata = {
 
         }
 
+    },
+
+    "voicethedodge": {
+
+        "projname": "Voice The Dodge",
+        "shortdescription": "Esquiva enemigos CON TU VOZ diciendo 'arriba', 'abajo', 'izquierda' o 'derecha'.",
+        "description": "En este juego, debes de esquivar obstáculos usando TU VOZ!! Esquiva pelotas, y cohetes como por arte de magia!! Todo con un micrófono y una buena habilidad!!",
+        "authors": "JMIDEV",
+        "rating": 3.5,
+        "photos": {
+
+            "cover": "FotosDeProyectos/Experimentos/VoiceTheDodge/SQUARE COVER.jpg",
+            "photo1": "FotosDeProyectos/Experimentos/VoiceTheDodge/CAPT1.png",
+            "photo2": "FotosDeProyectos/Experimentos/VoiceTheDodge/CAPT2.png",
+            "photo3": "FotosDeProyectos/Experimentos/VoiceTheDodge/CAPT3.png"
+
+        },
+        "platforms": {
+
+            "itchio": "https://jmidev.itch.io/voicethedodge",
+            //"mega": "https://mega.nz/file/GBJlWaKT#mQlyT3GqSsl8G0K1UdzZriIstHu5rcjzHxksOwFAGSA",
+            //"web": "https://jmidev.github.io/Rodant-Ball/",
+            //"construct": "https://www.construct.net/en/free-online-games/world-life-demo-12747/play"
+
+        }
+
     }
 
 };
