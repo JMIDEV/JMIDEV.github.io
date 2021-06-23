@@ -702,6 +702,15 @@ body{
         
     }
 
+    #bnslrpmp .projectsmainpagebtnbg{
+
+        background: url("FotosDeProyectos/GAME JAMS/Bunnys Lair/MIWEBcover.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+
     @keyframes hightlightthingycolors {
         0% {color: aqua; font-family: 'Poppins', sans-serif;}
         25% {color: rgb(255, 73, 246); font-family: 'Pattaya', sans-serif;}
