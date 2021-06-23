@@ -13,6 +13,9 @@
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <title>JMIDEV - Desarrollo de Videojuegos</title>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
         <link rel="icon" 
     type="image/png" 
     href="caralogoconfondoBAJO.ico">
@@ -21,11 +24,11 @@
 
 .main{
     
-    margin-top: 150px;
-    margin-left: 30px;
-    margin-right: 30px;
-    color: rgb(48, 48, 48);
-    text-align: center;
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: rgb(255, 255, 255);
+    text-align: left;
     
 }
 
@@ -41,11 +44,52 @@
 
         <div class="decoraciones">
 
-            <img class="decoracionimg" src="DECORACIÓN 1.png" style=" top: 300px; opacity: 0.3; ">
+            <!--<img class="decoracionimg" src="DECORACIÓN 1.png" style=" top: 300px; opacity: 0.3; ">-->
 
         </div>
         <main class="main">
-            <h1 id="BIGTITLE">JMIDEV</h1>
+            
+            <div class="slidermainpage">
+
+                <button onclick="    changeslid('-1'); /*--- clearInterval(cambioauto);    window.setInterval(cambioauto, 12 * 1000); */  " class="sliderbtn" id="leftsl"></button>
+                <button onclick="    changeslid('+1'); /*---clearInterval(cambioauto); /*---window.setInterval(cambioauto, 12 * 1000); */   " class="sliderbtn" id="rightsl"></button>
+                <div class="slidercontentinside">
+                    <h1>Videojuegos</h1>
+                    <h2>que te alegran la existencia.</h2>
+                </div>
+                <div class="imgslider"></div>
+                <div class="puntitosdeprogresoslidercontainer">
+                    <img src="sliderimgs/puntosprogreso.png" class="puntosprogresoslider" id="1"></img>
+                    <img src="sliderimgs/puntosprogreso.png" class="puntosprogresoslider" id="2"></img>
+                </div>
+                <div class="bgslider"></div>
+
+            </div>
+
+            <h1 id="marginadoenmain">Algunos de mis <span class="highlightlightsswitch">PROYECTOS</span></h1>
+
+            <div class="projectsmainpage" id="marginadoenmain">
+
+                <a href="projectview?proj=worldlifedemo"><div class="projectsmainpagebtn" id="wldemopmp"> <div class="projectsmainpagebtnbg"></div> <h3 class="projectsmainpagebtntxt">World Life DEMO</h3> </div></a>
+                <a href="projectview?proj=retimethewind"><div class="projectsmainpagebtn" id="rtwpmp"> <div class="projectsmainpagebtnbg"></div> <h3 class="projectsmainpagebtntxt">Retime the Wind</h3> </div></a>
+                <a href="projectview?proj=basketva"><div class="projectsmainpagebtn" id="bsktvpmp"> <div class="projectsmainpagebtnbg"></div> <h3 class="projectsmainpagebtntxt">BasketVá</h3> </div></a>
+                <a href="projectview?proj=rodantball"><div class="projectsmainpagebtn" id="rdntbllpmp"> <div class="projectsmainpagebtnbg"></div> <h3 class="projectsmainpagebtntxt">Rodant Ball</h3> </div></a>
+                <a href="projectview?proj=voicethedodge"><div class="projectsmainpagebtn" id="vcthddgpmp"> <div class="projectsmainpagebtnbg"></div> <h3 class="projectsmainpagebtntxt">Voice the Dodge</h3> </div></a>
+
+            </div>
+            <br>
+            <h1 id="marginadoenmain">Mi <span class="highlightlightsswitch">ÚLTIMO VIDEO</span></h1>
+            <div id="marginadoenmain" style="position: relative;"><iframe class="videosampl" src="https://www.youtube.com/embed/+lastest?list=PLA_N9OMAgolGGjIrUUjtu_qS6WOXQn-Dm" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+            
+            <h1 id="marginadoenmain" style="margin-top: 50px; text-align: center;">¿Dónde puedes <span class="highlightlightsswitch">CONTACTARME?</span></h1>
+            <div id="marginadoenmain" style="text-align: center; width: inherit; margin-bottom: 20px;">
+            
+                <a href="mailto:jmidevcontacto@gmail.com"><div class="Contactobutton" id="mail"></div></a>
+                <a href="https://discord.com/invite/GqnAcXDegt"><div class="Contactobutton" id="discord"></div></a>
+
+            </div>
+
+            <!--<h1 id="BIGTITLE">JMIDEV</h1>
             <h1>Videojuegos como Hobby aparte de los estudios</h1>
             <h2>En YouTube</h2>
             <a class="homesocialicon" href="https://www.youtube.com/channel/UC_gY9KDZ-YJPtBR91UeGxUQ"><img src="YoutubeBranding/youtube_full_color_icon/digital_and_tv/yt_icon_rgb.png"></a>
@@ -59,7 +103,7 @@
             <h1 style="font-size: 36px;">mi comunidad de discord!!:</h1>
             <a class="homesocialicon" href="https://discord.gg/GqnAcXDegt"><img src="DiscordBranding/Discord-Logo-Color.svg"></a>
             <br>
-            <div style="margin-bottom: 300px;"></div>
+            <div style="margin-bottom: 300px;"></div>-->
         </main>
         <!-- <p id="footer">
             <h4 align="center">El desarrollo de videojuegos, la preparación de mis videos, y mi vida personal, son muy complicadas
@@ -87,14 +131,14 @@
         <div id="Header">
             <div id="HeaderTitle">
                 <img id="JMIDEVHEADERLOGO" src="JMIDEVLOGO.png">
-                <h1 id="HeaderJMIletra" class="HeaderLetras">JMI</h1><h1 id="HeaderDEVletra" class="HeaderLetras">DEV</h1>
+                <h1 id="HeaderJMIletra" class="HeaderLetras">JMI<span>DEV</span></h1>
             </div>
             <button onclick="activatehm();" class="hamburguermenuresponsive"><img class="hamburguermenuresponsiveicon" src="menu-white-18dp.svg"></button>
-            <div id="HeaderMenu">
+            <!--<div id="HeaderMenu">
                 <button onclick="goInicio();" id="Inicio" class="HeaderButtons">Inicio</button>
                 <button onclick="goProyectos();" id="Mis Proyectos" class="HeaderButtons">Mis Proyectos</button>
                 <button onclick="goContacto();" id="Mis Proyectos" class="HeaderButtons">Contacto</button>
-            </div>
+            </div>-->
         </div>
         <div id="hambmencontainer">
             <div class="hambmenselector">
@@ -104,8 +148,6 @@
                     <button onclick="goInicio();" class="hambmenbutton">Inicio</button>
                     <br>
                     <button onclick="goProyectos();" class="hambmenbutton">Mis Proyectos</button>
-                    <br>
-                    <button onclick="goContacto();" class="hambmenbutton">Contacto</button>
                 </div>
             </div>
         </div>
@@ -117,8 +159,8 @@
             </div>
         </div>
     </body>
-    <script src="topbar.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="topbar.js"></script>
     <script src="hamburguermenu.js"></script>
 
     <!-- FIREBASE SCRIPTS :)-->
@@ -130,5 +172,6 @@
     <!-- END OF FIREBASE SCRIPTS :( -->
 
     <script src="customalertbox.js"></script>
+    <script src="slider.js"></script>
 
 </html>

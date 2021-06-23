@@ -12,9 +12,9 @@ function goProyectos(){
 
 }
 
-function goContacto(){
+function goSeHacer(){
 
-    window.location.href = "contactar";
+    window.location.href = "que-se-hacer";
 
 }
 

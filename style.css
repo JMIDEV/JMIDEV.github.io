@@ -1,6 +1,6 @@
 body{
 
-    background: rgb(214, 228, 230);
+    background: rgb(39, 39, 39);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center;
@@ -22,7 +22,7 @@ body{
     top: 0px;
     right: 0px;
     height: 70px;
-    background-color: rgba(255, 255, 255, 0.582)
+    background-color: rgba(29, 29, 29, 0.685)
     
     }
     
@@ -33,7 +33,8 @@ body{
     position: absolute;
     left: 50px;
     top: 19px;
-    border-radius: 15px;
+    /*border-radius: 15px;*/
+    border-radius: 50%;
     transition: 0.3s;
     
     }
@@ -56,14 +57,14 @@ body{
     #HeaderJMIletra{
     
     left: 100px;
-    color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
     
     }
     
     #HeaderDEVletra{
     
     left: 144.5px;
-    color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
     
     }
     
@@ -90,7 +91,7 @@ body{
     height: 34px;
     background-color: rgb(255, 255, 255);
     border: 2px solid transparent;
-    color: rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
     border-radius: 0px;
     margin-left: 10px;
     margin-right: 10px;
@@ -121,14 +122,14 @@ body{
     ::-webkit-scrollbar-track{
     
     border: 2px transparent rgb(202, 202, 202);
-    background-color: rgb(202, 202, 202);
+    background-color: rgb(48, 48, 48);
     
     
     }
     
     ::-webkit-scrollbar-thumb{
     
-    background-color: rgb(148, 148, 148);
+    background-color: rgb(71, 71, 71);
     transition: 0.3s;
     
     }
@@ -158,22 +159,22 @@ body{
     margin-bottom: 0px;
     left: 0px;
     right: 0px;
-    color: rgb(44, 44, 44);
-    background-color: rgba(255, 255, 255, 0.548);
+    color: rgb(255, 255, 255);
+    background-color: rgba(24, 24, 24, 0.548);
     justify-content: center;
     font-size: 13px;
     }
     
     .hamburguermenuresponsive{
+        
         position: absolute;
-        right: 20px;
+        right: 50px;
         top: 14px;
         width: 48px;
         height: 48px;
         background: rgba(116, 116, 116, 0.13);
-        border: 2px solid transparent;
+        border: 3px solid white;
         border-radius: 15px;
-        display: none;
         transition: 0.3s;
         outline: none;
     
@@ -200,8 +201,8 @@ body{
         right: 0px;
         top: 0px;
         bottom: 0px;
-        width: 85%;
-        background-color: rgb(243, 243, 243);
+        width: 40%;
+        background-color: rgb(51, 51, 51);
         box-shadow: 0 0 100px 0px rgba(0, 0, 0, 0.315);
     }
     
@@ -220,7 +221,7 @@ body{
         position: absolute;
         left: 80px;
         font-size: 40px;
-        color: rgb(32, 32, 32);
+        color: rgb(255, 255, 255);
     
     }
     
@@ -233,7 +234,7 @@ body{
         background-color: rgba(0, 0, 0, 0.123);
         border: 2px solid transparent;
         border-radius: 22px;
-        color: white;
+        color: rgb(255, 255, 255);
         outline: none;
         transition: 0.3s;
     }
@@ -252,13 +253,13 @@ body{
         width: 90%;
         height: 50px;
         margin-left: 5%;
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(80, 80, 80);
         border: 2px solid transparent;
         border-radius: 5px;
         margin-top: 5px;
         font-family: 'Poppins', sans-serif;
         font-size: 20px;
-        color: rgb(34, 34, 34);
+        color: rgb(255, 255, 255);
         text-align: left;
         padding-left: 20px;
         outline: none;
@@ -266,7 +267,7 @@ body{
     }
     
     .hambmenbutton:hover{
-        background-color: rgb(238, 238, 238);
+        background-color: rgb(156, 156, 156);
         cursor: hand;
     }
     
@@ -283,7 +284,7 @@ body{
         padding: 20px;
         border: none;
         border-radius: 20px;
-        color: white;
+        color: rgb(255, 255, 255);
     }
     
     .iniciobox p{
@@ -292,12 +293,12 @@ body{
 
     .videosampl{
 
-        margin-top: 150px;
         outline: none;
-        width: 70%;
-        height: 720px;
+        width: 100%;
+        height: 38vw;
         box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.178);
         border: none;
+        border-radius: 40px;
     
     }
 
@@ -353,7 +354,7 @@ body{
 
         width: 50vmax;
         height: 230px;
-        background: white;
+        background: rgb(63, 63, 63);
         display: inline-block;
         margin-top: -600px;
         border: none;
@@ -396,7 +397,7 @@ body{
 
     #problemdesc{
 
-        color: rgb(71, 71, 71);
+        color: rgb(255, 255, 255);
         font-size: 22px;
 
     }
@@ -436,7 +437,7 @@ body{
         vertical-align: middle;
         margin-left: 10px;
         font-size: 19px;
-        color: rgb(71, 71, 71);
+        color: rgb(255, 255, 255);
 
     }
 
@@ -453,6 +454,462 @@ body{
     #footersocialicon:hover{
 
         width: 60px;
+
+    }
+
+    #marginadoenmain{
+
+        margin-left: 15vmax;
+        margin-right: 15vmax;
+            
+    }
+
+    .slidermainpage{
+
+        background: rgba(59, 60, 66, 0);
+        width: 100%;
+        height: 500px;
+        position: relative;
+
+    }
+
+    .sliderbtn{
+
+        width: 50px;
+        height: 50px;
+        border: 0px solid transparent;
+        background: url("sliderbutton.svg");
+        background-position: center;
+        background-size: cover;
+        transition: 0.3s;
+
+    }
+
+    .sliderbtn:hover{
+
+        opacity: 0.5;
+        cursor: hand;
+
+    }
+
+    #leftsl{
+
+        position: absolute;
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%) scaleX(-1);
+
+    }
+
+    #rightsl{
+
+        transform:scaleX(-1);
+        position: absolute;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+
+    }
+
+    .slidercontentinside{
+
+        position: absolute;
+        left: 90px;
+        right: 90px;
+        bottom: 0px;
+        top: 0px;
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+    .slidercontentinside h1{
+
+        width: 50%;
+        text-align: center;
+        text-overflow: ellipsis;
+        transition: 0.5s;
+
+    }
+
+    .slidercontentinside h2{
+
+        width: 50%;
+        text-align: center;
+        bottom: 0px;
+        text-overflow: ellipsis;
+        transition: 0.5s;
+
+    }
+
+    .imgslider{
+
+        position: absolute;
+        right: 110px;
+        left: 50%;
+        transform: translateX(20px);
+        top: 30px;
+        bottom: 30px;
+        background: url("sliderimgs/1/sliderimg.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        transition: 0.5s;
+
+    }
+
+    .puntitosdeprogresoslidercontainer{
+
+        position: absolute;
+        left: 50%;
+        bottom: 5px;
+        transform: translateX(-50%);
+
+    }
+    
+    .puntosprogresoslider{
+
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        margin: 0px;
+
+    }
+
+    .bgslider{
+
+        position: absolute;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0px;
+        z-index: -1;
+        transition: 0.5s;
+
+    }
+
+    .projectsmainpage{
+
+        width: inherit;
+        height: 205px;
+        background: rgb(32, 32, 32);
+        border-radius: 20px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        padding: 35px;
+        white-space: nowrap;
+
+    }
+
+    .projectsmainpagebtn{
+
+        width: 180px;
+        height: 180px;
+        border-radius: 20px;
+        overflow: hidden;
+        background: black;
+        position: relative;
+        display:flex;
+        margin-right: 20px;
+        /*float: left;*/
+        display: inline-block;
+
+    }
+
+    .projectsmainpagebtnbg{
+
+        width: 100%;
+        height: 100%;
+        opacity: 1;
+        transition: 0.3s;
+
+    }
+
+    .projectsmainpagebtntxt{
+
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        top: 30%;
+        opacity: 0;
+        transition: 0.3s;
+        color: white;
+
+    }
+
+    .projectsmainpagebtn:hover .projectsmainpagebtntxt{
+
+        opacity: 1;
+
+    }
+
+    .projectsmainpagebtn:hover .projectsmainpagebtnbg{
+
+        opacity: 0.2;
+
+    }
+
+    .projectsmainpagebtn:hover{
+
+        cursor: hand;
+
+    }
+
+    #wldemopmp .projectsmainpagebtnbg{
+
+        background: url("FotosDeProyectos/Aventura/worldlifedemo/COVER.png");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        
+    }
+
+    #rtwpmp .projectsmainpagebtnbg{
+
+        background: url("FotosDeProyectos/GAME JAMS/Retime the Wind/RTW.jpg");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        
+    }
+
+    #bsktvpmp .projectsmainpagebtnbg{
+
+        background: url("FotosDeProyectos/Casuales/BasketVa/COVER.jpg");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        
+    }
+
+    #rdntbllpmp .projectsmainpagebtnbg{
+
+        background: url("FotosDeProyectos/Casuales/Rodant Ball/COVER.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+
+    #vcthddgpmp .projectsmainpagebtnbg{
+
+        background: url("FotosDeProyectos/Experimentos/VoiceTheDodge/SQUARE COVER.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+
+    @keyframes hightlightthingycolors {
+        0% {color: aqua; font-family: 'Poppins', sans-serif;}
+        25% {color: rgb(255, 73, 246); font-family: 'Pattaya', sans-serif;}
+        50% {color: rgb(73, 255, 112); font-family: 'Roboto', sans-serif;}
+        75% {color: rgb(255, 213, 73); font-family: 'Fjalla One', sans-serif;}
+    }
+
+    @keyframes hightlightthingycolorsmobile {
+        0% {color: aqua; /*font-family: 'Poppins', sans-serif;*/}
+        25% {color: rgb(255, 73, 246); /*font-family: 'Pattaya', sans-serif;*/}
+        50% {color: rgb(73, 255, 112); /*font-family: 'Roboto', sans-serif;*/}
+        75% {color: rgb(255, 213, 73); /*font-family: 'Fjalla One', sans-serif;*/}
+    }
+
+    .highlightlightsswitch{
+
+        animation-name: hightlightthingycolors;
+        animation-duration: 0.5s;
+        animation-iteration-count: infinite;
+
+    }
+
+    .tagselector{
+
+        text-align: left;
+        position: relative;
+        width: 13%;
+        display: inline-block;
+        margin-bottom: 30px;
+        vertical-align: top;
+
+    }
+
+    /*.tagselector h2{
+
+        font-size: 280%;
+
+    }*/
+
+    .tagbtnslect{
+
+        width: 100%;
+        height: 45px;
+        background: rgb(27, 27, 27);
+        border-radius: 10px;
+        position: relative;
+        margin-bottom: 5px;
+        transition: 0.3s;
+        overflow: hidden;
+
+    }
+
+    .tagbtnslect span{
+
+        position: absolute;
+        top: 50%;
+        left: 50px;
+        transform: translateY(-50%);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+    }
+
+    .tagbtnslect img{
+
+        position: absolute;
+        top: 50%;
+        left: 14px;
+        transform: translateY(-50%);
+
+    }
+
+    .tagbtnslect:hover{
+
+        /*opacity: 0.5;*/
+        cursor: hand;
+
+    }
+
+    .newprojectselector{
+
+        width: 70%;
+        text-align: center;
+        position: relative;
+        display: inline-block;
+        margin-bottom: 30px;
+        vertical-align: top;
+        padding: 25px;
+
+    }
+
+    .newprojectbtn{
+
+        position: relative;
+        width: 500px;
+        height: 200px;
+        display: inline-block;
+        text-align: left;
+        background: rgb(31, 31, 31);
+        overflow: hidden;
+        border-radius: 20px;
+        margin-right: 13px;
+        margin-bottom: 13px;
+        color: white;
+        
+    }
+
+    .newprojectbtn img{
+
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 200px;
+
+    }
+
+    .newprojectbtn h1{
+
+        position: absolute;
+        top: 40px;
+        font-size: 30px;
+        left: 220px;
+        transition: 0.3s;
+
+    }
+
+    .newprojectbtn h2{
+
+        position: absolute;
+        top: 90px;
+        font-size: 17px;
+        left: 220px;
+        transition: 0.3s;
+
+    }
+
+    .newprojectbtn h3{
+
+        position: absolute;
+        top: 70px;
+        font-size: 12px;
+        left: 222px;
+        width: 250px;
+        opacity: 0;
+        transition: 0.3s;
+
+    }
+
+    .newprojectbtn:hover{
+
+        cursor: hand;
+
+    }
+
+    .newprojectbtn:hover h1{
+
+        top: 15px;
+
+    }
+
+    .newprojectbtn:hover h2{
+
+        top: 110px;
+
+    }
+    
+    .newprojectbtn:hover h3{
+
+        opacity: 1;
+
+    }
+
+    .Contactobutton{
+
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        transition: 0.3s;
+        display: inline-block;
+        vertical-align:middle;
+
+    }
+
+    .Contactobutton:hover{
+
+        opacity: 0.25;
+        cursor: hand;
+        width: 120px;
+        height: 120px;
+
+    }
+
+    #mail{
+
+        background: url(othericons/contacto/email_white_24dp.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    #discord{
+
+        background: url(othericons/contacto/Discord-Logo-White.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 
     }
 
@@ -497,33 +954,20 @@ body{
             margin-bottom: 50px;
             margin-left: 20px;
             margin-right: 20px;
-            color: rgb(41, 41, 41);
+            color: rgb(255, 255, 255);
     
         }
     
         #Header{
             
-            background-color: rgba(255, 255, 255, 0.842)
+            background-color: rgba(32, 32, 32, 0.815)
     
-        }
-    
-        .hamburguermenuresponsive{
-            display: inline;
         }
     
         #footer{
             padding-left: 10%;
             padding-right: 10%;
             padding-bottom: 30px;
-        }
-
-        .videosampl{
-
-            margin-top: 150px;
-            outline: none;
-            width: 70%;
-            height: 360px;
-        
         }
 
         .customalertboxcontainer{
@@ -541,6 +985,324 @@ body{
         .advicetypecontainer{
 
             width: 85vw;
+    
+        }
+
+        .hambmenselector{
+            width: 85%;
+        }
+
+        .hamburguermenuresponsive{
+        
+            right: 20px;
+        
+        }
+
+        .videosampl{
+
+            height: 50vw;
+        
+        }
+        
+        .slidermainpage{
+
+            background: rgba(59, 60, 66, 0);
+            width: 100%;
+            height: 500px;
+            position: relative;
+    
+        }
+    
+        .sliderbtn{
+    
+            width: 50px;
+            height: 50px;
+            border: 0px solid transparent;
+            background: url("sliderbutton.svg");
+            background-position: center;
+            background-size: cover;
+            transition: 0.3s;
+    
+        }
+    
+        .sliderbtn:hover{
+    
+            opacity: 0.5;
+            cursor: hand;
+    
+        }
+    
+        #leftsl{
+    
+            position: absolute;
+            left: 20px;
+            top: 50%;
+            transform: translateY(-50%) scaleX(-1);
+    
+        }
+    
+        #rightsl{
+    
+            transform:scaleX(-1);
+            position: absolute;
+            right: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+    
+        }
+    
+        .slidercontentinside{
+    
+            position: absolute;
+            left: 90px;
+            right: 90px;
+            bottom: 0px;
+            top: 0px;
+            padding-left: 0%;
+            padding-right: 0%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+            text-align: center;
+    
+        }
+    
+        .slidercontentinside h1{
+    
+            width: 100%;
+            text-align: center;
+            text-overflow: ellipsis;
+            transition: 0.5s;
+            font-size: 30px;
+            word-wrap: break-word;
+    
+        }
+    
+        .slidercontentinside h2{
+    
+            width: 100%;
+            text-align: center;
+            bottom: 0px;
+            text-overflow: ellipsis;
+            transition: 0.5s;
+    
+        }
+    
+        .imgslider{
+    
+            position: absolute;
+            right: 110px;
+            left: 50%;
+            transform: translateX(20px);
+            top: 30px;
+            bottom: 30px;
+            background: url("sliderimgs/1/sliderimg.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            transition: 0.5s;
+            display: none;
+    
+        }
+    
+        .puntitosdeprogresoslidercontainer{
+    
+            position: absolute;
+            left: 50%;
+            bottom: 5px;
+            transform: translateX(-50%);
+    
+        }
+        
+        .puntosprogresoslider{
+    
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            margin: 0px;
+    
+        }
+    
+        .bgslider{
+    
+            position: absolute;
+            top: 0px;
+            bottom: 0px;
+            left: 0px;
+            right: 0px;
+            z-index: -1;
+            transition: 0.5s;
+    
+        }
+
+        #marginadoenmain{
+
+            margin-left: 4vmax;
+            margin-right: 4vmax;
+                
+        }
+
+        .highlightlightsswitch{
+
+            animation-name: hightlightthingycolorsmobile;
+            animation-duration: 0.5s;
+            animation-iteration-count: infinite;
+    
+        }
+
+        .tagselector{
+
+            text-align: center;
+            position: relative;
+            width: 100%;
+            display: inline;
+            margin-bottom: 60px;
+            vertical-align: initial;
+    
+        }
+    
+        .tagselector h2{
+    
+            font-size: 50px;
+    
+        }
+    
+        .tagbtnslect{
+    
+            width: 90px;
+            height: 90px;
+            background: rgb(27, 27, 27);
+            border-radius: 50%;
+            position: relative;
+            margin-bottom: 5px;
+            transition: 0.3s;
+            overflow: hidden;
+            display: inline-block;
+    
+        }
+    
+        .tagbtnslect span{
+    
+            position: absolute;
+            top: 50%;
+            left: 50px;
+            transform: translateY(-50%);
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            display: none;
+    
+        }
+    
+        .tagbtnslect img{
+    
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 33px;
+            transform: translateY(-50%) translateX(-50%);
+    
+        }
+    
+        .tagbtnslect:hover{
+    
+            /*opacity: 0.5;*/
+            cursor: hand;
+    
+        }
+    
+        .newprojectselector{
+    
+            width: 100%;
+            text-align: center;
+            position: relative;
+            display: inline;
+            margin-bottom: 30px;
+            vertical-align: initial;
+            padding: 25px;
+    
+        }
+    
+        .newprojectbtn{
+    
+            position: relative;
+            width: 100%;
+            height: auto;
+            padding-bottom: 30px;
+            display: block;
+            text-align: center;
+            background: rgb(31, 31, 31);
+            overflow: hidden;
+            border-radius: 40px;
+            margin-right: 0px;
+            margin-bottom: 23px;
+            color: white;
+            
+        }
+    
+        .newprojectbtn img{
+    
+            position: relative;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+    
+        }
+    
+        .newprojectbtn h1{
+    
+            position: relative;
+            top: 0px;
+            font-size: 30px;
+            left: 0px;
+            transition: 0.3s;
+    
+        }
+    
+        .newprojectbtn h2{
+    
+            position: relative;
+            top: -20px;
+            font-size: 17px;
+            left: 0px;
+            transition: 0.3s;
+    
+        }
+    
+        .newprojectbtn h3{
+    
+            position: absolute;
+            top: initial;
+            bottom: 44px;
+            font-size: 12px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 250px;
+            opacity: 0;
+            transition: 0.3s;
+    
+        }
+    
+        .newprojectbtn:hover{
+    
+            cursor: hand;
+    
+        }
+    
+        .newprojectbtn:hover h1{
+    
+            top: 0px;
+    
+        }
+    
+        .newprojectbtn:hover h2{
+    
+            top: 20px;
+    
+        }
+        
+        .newprojectbtn:hover h3{
+    
+            opacity: 1;
     
         }
     
