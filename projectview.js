@@ -182,6 +182,32 @@ var projectsdata = {
 
         }
 
+    },
+
+    "bunnyslair": {
+
+        "projname": "Bunny's Lair",
+        "shortdescription": 'Un conejito debe de pasar muchos retos para llegar a la "zanahoria mágica".',
+        "description": "Un conejito llamado BANIO debe de atravesar innumerables retos para llegar a EL PASILLO DE LA ZANAHORIA MÁGICA, una zanahoria que le hará ser el único que conoce el sentido de la vida.",
+        "authors": "JMIDEV",
+        "rating": 3.5,
+        "photos": {
+
+            "cover": "FotosDeProyectos/GAME JAMS/Bunnys Lair/MIWEBcover.jpg",
+            "photo1": "FotosDeProyectos/GAME JAMS/Bunnys Lair/captura1.gif",
+            "photo2": "FotosDeProyectos/GAME JAMS/Bunnys Lair/captura2.gif",
+            "photo3": "FotosDeProyectos/GAME JAMS/Bunnys Lair/captura3.gif"
+
+        },
+        "platforms": {
+
+            "itchio": "https://jmidev.itch.io/bunnys-lair",
+            /*"mega": "jeje",
+            "web": "jojo",
+            "construct": "jiji"*/
+
+        }
+
     }
 
 };
