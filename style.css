@@ -675,8 +675,6 @@ body{
         
     }
 
-    /**/
-
     #bsktvpmp .projectsmainpagebtnbg{
 
         background: url("FotosDeProyectos/Casuales/BasketVa/COVER.jpg");
@@ -710,6 +708,7 @@ body{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        behavior: initial;
         
     }
 
