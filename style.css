@@ -1,10 +1,10 @@
 body{
 
-    background: url("JMIDEVWEBBG.png");
+    background: linear-gradient(324deg, #272727 0%, rgb(37, 35, 53)100%);
     background-attachment: fixed;
-    background-repeat: repeat;
+    background-repeat: no-repeat;
     background-position: center;
-    background-size: 500px;
+    background-size: cover;
     margin-bottom: 0px;
     margin-left: 0px;
     margin-right: 0px;
