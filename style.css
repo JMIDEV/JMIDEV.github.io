@@ -173,7 +173,10 @@ body{
         top: 14px;
         width: 48px;
         height: 48px;
-        background: rgba(116, 116, 116, 0.13);
+        background: url("menu-white-18dp.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80%;
         border: 3px solid white;
         border-radius: 15px;
         transition: 0.3s;
@@ -182,13 +185,13 @@ body{
     }
     
     .hamburguermenuresponsive:hover{
-        background: rgba(0, 0, 0, 0.39);
         cursor: hand;
+        background-size: 100%;
     }
     
     .hamburguermenuresponsive:focus{
-        background: rgba(0, 0, 0, 0.602);
         cursor: hand;
+        background-size: 60%;
     }
     
     .hamburguermenuresponsiveicon{
