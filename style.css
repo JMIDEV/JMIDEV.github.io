@@ -235,17 +235,18 @@ body{
         height: 43px;
         top: 35px;
         left: 20px;
-        background-color: rgba(0, 0, 0, 0.123);
+        background: url("clear-white-18dp.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
         border: 2px solid transparent;
-        border-radius: 22px;
-        color: rgb(255, 255, 255);
         outline: none;
         transition: 0.3s;
     }
     
     .hambmenselectorclose:hover{
         cursor: hand;
-        background-color: rgba(0, 0, 0, 0.253);
+        opacity: 0.2;
     }
     
     .hambmenselectorcloseicon{
