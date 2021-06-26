@@ -113,7 +113,7 @@ cursor: hand;
     margin-bottom: 50px;
     margin-left: 130px;
     margin-right: 130px;
-    color: rgb(48, 48, 48);
+    color: rgb(255, 255, 255);
     text-align: left;
 
 }
@@ -165,11 +165,7 @@ red{
     </head>
 
     <body>
-        <div class="decoraciones">
-
-            <img class="decoracionimg" src="DECORACIÓN 3.png" style=" top: -1000px; opacity: 0.3; ">
-
-        </div>
+        
         <main class="main">
             <h1 id="BIGTITLE">Error <red>404</red></h1>
             <h1>Esta página/apartado de JMIDEV no existe!!</h1>
@@ -186,33 +182,31 @@ red{
             <div align="center">
                 <a href="https://jmidev.itch.io"><img id="footersocialicon" src="LogosFooter/Itchio/itchio-textless-white.svg"></a>
                 <a href="https://www.youtube.com/channel/UC_gY9KDZ-YJPtBR91UeGxUQ"><img id="footersocialicon" src="LogosFooter/Youtube/youtube_social_circle_red.png"></a>
-                <a href="https://discord.gg/GqnAcXDegt"><img id="footersocialicon" src="LogosFooter/Discord/Discord-Logo-White.svg"></a>
-                <a href="https://pinterest.es/JMIDEV"><img id="footersocialicon" src="LogosFooter/Pinterest/pintlogo.svg"></a>
                 <a href="https://www.twitch.tv/jmi_dev"><img id="footersocialicon" src="LogosFooter/Twitch/TwitchGlitchPurple.svg"></a>
             </div>
         </div>
         <div id="Header">
             <div id="HeaderTitle">
                 <img id="JMIDEVHEADERLOGO" src="JMIDEVLOGO.png">
-                <h1 id="HeaderJMIletra" class="HeaderLetras">JMI</h1><h1 id="HeaderDEVletra" class="HeaderLetras">DEV</h1>
+                <h1 id="HeaderJMIletra" class="HeaderLetras">JMI<span>DEV</span></h1>
             </div>
-            <button onclick="activatehm();" class="hamburguermenuresponsive"><img class="hamburguermenuresponsiveicon" src="menu-white-18dp.svg"></button>
-            <div id="HeaderMenu">
+            <button onclick="activatehm();" class="hamburguermenuresponsive"></button>
+            <!--<div id="HeaderMenu">
                 <button onclick="goInicio();" id="Inicio" class="HeaderButtons">Inicio</button>
                 <button onclick="goProyectos();" id="Mis Proyectos" class="HeaderButtons">Mis Proyectos</button>
                 <button onclick="goContacto();" id="Mis Proyectos" class="HeaderButtons">Contacto</button>
-            </div>
+            </div>-->
         </div>
         <div id="hambmencontainer">
             <div class="hambmenselector">
-                <button onclick="hidehm();" class="hambmenselectorclose"><img class="hambmenselectorcloseicon" src="clear-white-18dp.svg"></button>
+                <button onclick="hidehm();" class="hambmenselectorclose"></button>
                 <h1 class="hambmenselectormenu">Menú</h1>
                 <div class="hambmenoptions">
                     <button onclick="goInicio();" class="hambmenbutton">Inicio</button>
                     <br>
                     <button onclick="goProyectos();" class="hambmenbutton">Mis Proyectos</button>
                     <br>
-                    <button onclick="goContacto();" class="hambmenbutton">Contacto</button>
+                    <button onclick="goSeHacer();" class="hambmenbutton">¿Qué se hacer?</button>
                 </div>
             </div>
         </div>
