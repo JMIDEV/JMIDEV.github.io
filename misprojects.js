@@ -49,6 +49,13 @@ function changecategory(categoryname){
 
     }
 
+    else if(categoryname == "utilidadesproj"){
+
+        $(".tagbtnslect").css("background", "rgb(27, 27, 27)");
+        $("#tagutilities").css("background", "linear-gradient(141deg, rgba(255,79,186,1) 0%, rgba(255,166,0,1) 100%)");
+
+    }
+
 }
 
 changecategory('juegoall');
