@@ -24,7 +24,8 @@ var projectsdata = {
             "web": "jojo",
             "construct": "jiji"*/
 
-        }
+        },
+        "themecolor": [0, 247, 255]
 
     },
 
@@ -50,7 +51,8 @@ var projectsdata = {
             "web": "jojo",*/
             "construct": "https://www.construct.net/en/free-online-games/world-life-demo-12747/play"
 
-        }
+        },
+        "themecolor": [255, 74, 74]
 
     },
 
@@ -76,7 +78,8 @@ var projectsdata = {
             //"web": "jojo",
             //"construct": "https://www.construct.net/en/free-online-games/world-life-demo-12747/play"
 
-        }
+        },
+        "themecolor": [255, 200, 0]
 
     },
 
@@ -102,7 +105,8 @@ var projectsdata = {
             //"web": "jojo",
             //"construct": "https://www.construct.net/en/free-online-games/world-life-demo-12747/play"
 
-        }
+        },
+        "themecolor": [179, 59, 235]
 
     },
 
@@ -128,7 +132,8 @@ var projectsdata = {
             "web": "https://jmidev.github.io/Rodant-Ball/",
             //"construct": "https://www.construct.net/en/free-online-games/world-life-demo-12747/play"
 
-        }
+        },
+        "themecolor": [255, 237, 237]
 
     },
 
@@ -154,7 +159,8 @@ var projectsdata = {
             //"web": "https://jmidev.github.io/Rodant-Ball/",
             //"construct": "https://www.construct.net/en/free-online-games/world-life-demo-12747/play"
 
-        }
+        },
+        "themecolor": [255, 172, 89]
 
     },
 
@@ -180,7 +186,8 @@ var projectsdata = {
             //"web": "https://jmidev.github.io/Rodant-Ball/",
             //"construct": "https://www.construct.net/en/free-online-games/world-life-demo-12747/play"
 
-        }
+        },
+        "themecolor": [139, 61, 255]
 
     },
 
@@ -206,7 +213,8 @@ var projectsdata = {
             "web": "jojo",
             "construct": "jiji"*/
 
-        }
+        },
+        "themecolor": [43, 255, 188]
 
     }
 
@@ -571,3 +579,22 @@ else{
     $("#getprojectfromconstruct").css("display", "none");
 
 }
+
+//APPLYING THEME COLOR
+
+var themecolor_rgb = projectsdata[mainroot].themecolor;
+var graymedia = (themecolor_rgb[0] + themecolor_rgb[1] + themecolor_rgb[2])/3;
+var difference_between_gray_and_normal = [themecolor_rgb[0] - graymedia, themecolor_rgb[1] - graymedia, themecolor_rgb[2] - graymedia];
+
+var gradientbg = [[   Math.round(themecolor_rgb[0]/2) - difference_between_gray_and_normal[0]/4   ,    Math.round(themecolor_rgb[1]/2) - difference_between_gray_and_normal[1]/4   ,    Math.round(themecolor_rgb[2]/2) - difference_between_gray_and_normal[2]/4    ], [    Math.round(themecolor_rgb[0]/3.5) - difference_between_gray_and_normal[0]/4    ,     Math.round(themecolor_rgb[1]/3.5) - difference_between_gray_and_normal[1]/4   ,    Math.round(themecolor_rgb[2]/3.5) - difference_between_gray_and_normal[2]/4   ]];
+
+$("body").css("background", "linear-gradient(324deg, rgb(" + (gradientbg[1][0]) + ", " + (gradientbg[1][1]) + ", " + (gradientbg[1][2]) + ") 0%, " + "rgb(" + (gradientbg[0][0]) + ", " + (gradientbg[0][1]) + ", " + (gradientbg[0][2]) + ")100%)");
+$("body").css("background-attachment", "fixed");
+
+var engrayedcolor = [   Math.round(themecolor_rgb[0]/2) - difference_between_gray_and_normal[0]/4   ,    Math.round(themecolor_rgb[1]/2) - difference_between_gray_and_normal[1]/4   ,    Math.round(themecolor_rgb[2]/2) - difference_between_gray_and_normal[2]/4    ];
+
+$(".rightside").css("background", "rgb(" + engrayedcolor[0] + ", " + engrayedcolor[1] + ", " + engrayedcolor[2] + ")");
+$(".leftside").css("background", "rgb(" + engrayedcolor[0] + ", " + engrayedcolor[1] + ", " + engrayedcolor[2] + ")");
+$(".getprojcontentthings").css("background", "rgb(" + engrayedcolor[0] + ", " + engrayedcolor[1] + ", " + engrayedcolor[2] + ")");
+$("#Header").css("background", "rgba(" + engrayedcolor[0]/1.5 + ", " + engrayedcolor[1]/1.5 + ", " + engrayedcolor[2]/1.5 + ", 0.685)");
+$("#footer").css("background", "rgba(" + engrayedcolor[0]/1.5 + ", " + engrayedcolor[1]/1.5 + ", " + engrayedcolor[2]/1.5 + ", 0.685)");
