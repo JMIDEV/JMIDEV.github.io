@@ -662,6 +662,24 @@ body{
 
     }
 
+    #ebjspmp .projectsmainpagebtnbg{
+
+        background: url("FotosDeProyectos/Utilities/EBJS/pfpsmall.png");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        
+    }
+
+    #nescrtpmp .projectsmainpagebtnbg{
+
+        background: url("FotosDeProyectos/Utilities/NEOESCRITOIRE/cover.jpg");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        
+    }
+
     #wldemopmp .projectsmainpagebtnbg{
 
         background: url("FotosDeProyectos/Aventura/worldlifedemo/COVER.png");
