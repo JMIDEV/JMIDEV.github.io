@@ -164,6 +164,33 @@ var projectsdata = {
 
     },
 
+    "carterocartasmarruecas": {
+
+        "projname": "El Cartero de Las Cartas Marruecas",
+        "shortdescription": "Un juego sobre un cartero que debe recoger y enviar cartas.",
+        "description": "Un juego donde debes de recoger y enviar cartas, cuyo juego es acerca del personaje del que nuca se habló, el cartero de la obra ''Las Cartas Marruecas'' de José Cadalso.",
+        "authors": "JMIDEV",
+        "rating": 3.5,
+        "photos": {
+
+            "cover": "FotosDeProyectos/Educativos/CartasMarr/ARTESQUARE.jpg",
+            "photo1": "FotosDeProyectos/Educativos/CartasMarr/captura1.jpg",
+            "photo2": "FotosDeProyectos/Educativos/CartasMarr/captura2.jpg",
+            "photo3": "FotosDeProyectos/Educativos/CartasMarr/captura3.jpg"
+
+        },
+        "platforms": {
+
+            //"itchio": "https://jmidev.itch.io/voicethedodge",
+            //"mega": "https://mega.nz/file/GBJlWaKT#mQlyT3GqSsl8G0K1UdzZriIstHu5rcjzHxksOwFAGSA",
+            "web": "https://jmidev.github.io/Cartas-Marruecas/",
+            "construct": "https://www.construct.net/en/free-online-games/cartero-cartas-marruecas-44342/play"
+
+        },
+        "themecolor": [255, 86, 48]
+
+    },
+
     "voicethedodge": {
 
         "projname": "Voice The Dodge",
@@ -276,7 +303,7 @@ document.getElementById("authorstext").innerHTML = authors;
 //
 //
 //write RATINGS
-
+/*
 if(rating == 1){
 
     document.getElementById('star1').src="RateICONS/COMPLETE.svg";
@@ -366,7 +393,7 @@ if(rating == 5){
     document.getElementById('star5').src="RateICONS/COMPLETE.svg";
 
 }
-
+*/
 //
 //
 //CAPTURES WORKING ---------------------------------------------------

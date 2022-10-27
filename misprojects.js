@@ -44,6 +44,13 @@ function changecategory(categoryname){
 
     }
 
+    else if(categoryname == "juegoeducation"){
+
+        $(".tagbtnslect").css("background", "rgb(31, 31, 43)");
+        $("#tagjuegoeducation").css("background", "linear-gradient(149deg, rgba(0,255,38,1) 0%, rgba(102,0,255,1) 100%)");
+
+    }
+
     else if(categoryname == "juegoexperiment"){
 
         $(".tagbtnslect").css("background", "rgb(31, 31, 43)");
