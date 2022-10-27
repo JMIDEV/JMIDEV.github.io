@@ -637,6 +637,7 @@ body{
         position: absolute;
         text-align: center;
         width: 100%;
+        height: 100%;
         top: 30%;
         opacity: 0;
         transition: 0.3s;
@@ -662,12 +663,37 @@ body{
 
     }
 
+    #cartcartmarr .projectsmainpagebtnbg{
+
+        background: url("FotosDeProyectos/Educativos/CartasMarr/ARTESQUARE.jpg");
+        background-size: cover;
+        background-position: top;
+        background-repeat: no-repeat;
+        
+    }
+
+    #cartcartmarr .projectsmainpagebtntxt{
+
+        top: 15%;
+        
+    }
+
     #ebjspmp .projectsmainpagebtnbg{
 
         background: url("FotosDeProyectos/Utilities/EBJS/pfpsmall.png");
         background-size: cover;
         background-position: top;
         background-repeat: no-repeat;
+        
+    }
+
+    #bnslrpmp .projectsmainpagebtnbg{
+
+        background: url("FotosDeProyectos/GAME JAMS/Bunnys Lair/MIWEBcover.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        behavior: initial;
         
     }
 
@@ -722,16 +748,6 @@ body{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        
-    }
-
-    #bnslrpmp .projectsmainpagebtnbg{
-
-        background: url("FotosDeProyectos/GAME JAMS/Bunnys Lair/MIWEBcover.jpg");
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        behavior: initial;
         
     }
 
