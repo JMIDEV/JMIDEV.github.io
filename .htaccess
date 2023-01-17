@@ -1,7 +1,9 @@
+Options +FollowSymLinks
+
 RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html [NC,L]
+Redirect 301 /index.html http://jmidev.es
+RewriteCond %{HTTP_HOST} ^(?:jmidev\.)github\.io$ [NC]
+RewriteRule ^http://jmidev.es%{REQUEST_URI} [L,R=301]
 
 <FilesMatch "\.(css|flv|gif|htm|html|ico|jpe|jpeg|jpg|js|png|pdf|swf|txt)$">
 	<IfModule mod_expires.c>
