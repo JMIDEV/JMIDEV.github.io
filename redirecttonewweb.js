@@ -1,1 +1,1 @@
-window.location.href = "http://jmidev.es";
+window.location.href = "https://jmidev.com";
